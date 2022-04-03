@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    position: relative;
+}
+
+img {
+    width: 80px;
+    height: 100vh;
+    border-radius: 50px;
+}
+
+.active {
+    width: 700px;
+    transition: ease-in 0.3s;
+}
